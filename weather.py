@@ -1,13 +1,13 @@
 def check_t(t):
     if t <= 0:
-        return "Холодно"
+        return (f"{t} — Холодно")
     elif t <= 15:
-        return "Прохолодно"
+        return (f"{t} — Прохолодно")
     elif t <= 25:
-        return "Гарна погода"
+        return (f"{t} — Гарна погода")
     else:
-        return "Спекотно"
-
+        return (f"{t} — Спекотно")
+ 
 #temp = int(input("Введіть температуру на вулиці: "))
 
 temperatures = [15, -3, 27, 8, 32, 0, 21]
